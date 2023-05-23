@@ -18,9 +18,8 @@ const Carousel = () => {
         className="w-full flex overflow-hidden h-full md:w- relative"
       >
         {carousel.map((data, index) => (
-          <div className="min-w-full h-full ">
+          <div key={index} className="min-w-full h-full ">
             <img
-              key={index}
               src={data.Image}
               alt={`Slide ${index + 1}`}
               className="min-w-full min-h-full object-cover "
@@ -38,7 +37,7 @@ const Carousel = () => {
         </p>
         <button
           onClick={navigateAbout}
-          className="bg-primary1 font-light rounded px-6 py-2 text-white text-medium text-base font-Euclid z-10 hover:bg-primary2"
+          className="bg-primary2 font-medium rounded px-6 py-2 text-white text-medium font-Euclid z-10 hover:bg-primary1"
         >
           Learn More
         </button>

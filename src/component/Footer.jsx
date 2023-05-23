@@ -15,7 +15,7 @@ const Footer = () => {
           ))}
         </nav>
         <Socials />
-        <p className="mt-5 text-base leading-6 text-center text-primary1 font-Euclid">© 2021 Oriki Yoruba, Inc. All rights reserved.</p>
+        <p className="mt-5 text-base leading-6 text-center text-primary1 font-Euclid">© 2023 Oriki Yoruba, Inc. All rights reserved.</p>
       </div>
     </section>
   );
