@@ -1,4 +1,4 @@
-import { BsFacebook, BsInstagram, BsTwitter, BsMedium } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsTwitter, BsYoutube } from "react-icons/bs";
 
 import image1 from "../Assets/images/adire.jpg";
 import image2 from "../Assets/images/masque.jpg";
@@ -12,10 +12,10 @@ import swiper3 from "../Assets/images/monstera-g74f94a21e_1920.jpg";
 import swiper4 from "../Assets/images/make-up-g469112bc7_1920.jpg";
 // import swiper5 from "../Assets/images/phone-gcd37cdefa_1920.jpg";
 
-const Facebook = <BsFacebook size={25} />;
+const Facebook = <BsFacebook size={25}/>;
 const Instagram = <BsInstagram size={25} />;
 const Twitter = <BsTwitter size={25} />;
-const Medium = <BsMedium size={25} />;
+const Youtube = <BsYoutube size={25} />;
 
 export const links = [
   {
@@ -74,8 +74,8 @@ export const SocialMedia = [
     link: "sdooivvhiovhv",
   },
   {
-    name: "Medium",
-    icon: Medium,
+    name: "Youtube",
+    icon: Youtube,
     link: "sdooivvhiovhv",
   },
 ];
