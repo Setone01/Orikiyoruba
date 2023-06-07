@@ -4,18 +4,32 @@
 
 /* @import url('https://fonts.cdnfonts.com/css/euclid-circular-b'); */
 
+.swiper-container {
+  overflow: visible;
+}
+
+.swiper-pagination-fraction{
+  position: absolute;
+    bottom: 0;
+}
+
+.swiper-pagination{
+  position: absolute;
+  bottom: -25px;
+  background-color: transparent;
+}
 
 @layer base {
-    *{
-        @apply font-Euclid
-        bg-white
-    }
+  * {
+    @apply font-Euclid
+        bg-white;
+  }
 
-    h1{
-        @apply text-2xl font-bold
-    }
+  h1 {
+    @apply text-2xl font-bold;
+  }
 
-    /* a{
+  /* a{
         @apply p-4
     } */
 }

@@ -24,7 +24,7 @@ const Testimonial = () => {
               <div className=" flex items-center">
                 <img
                   src={data.image}
-                  className="w-16 h-16 rounded-full mr-5"
+                  className="w-16 h-16 rounded-full mr-5 object-cover"
                   alt=""
                 />
                 <div className="flex flex-col ">

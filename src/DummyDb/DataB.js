@@ -27,6 +27,10 @@ export const links = [
     path: "/about",
   },
   {
+    name: "Oriki",
+    path: "/oriki",
+  },
+  {
     name: "Town",
     path: "/town",
   },
