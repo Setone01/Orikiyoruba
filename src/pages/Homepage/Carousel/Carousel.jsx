@@ -27,7 +27,7 @@ const Carousel = () => {
           </div>
         ))}
       </div>
-      <div className="absolute inset-0 bg-black/40 flex items-start justify-center flex-col lg:px-20 pl-5 ">
+      <div className="absolute inset-0 bg-black/50 flex items-start justify-center flex-col lg:px-20 pl-5 ">
         <h1 className="bg-transparent text-white md:font-semibold font-bold font-Euclid w-68 md:text-6xl text-4xl text-left mb-8 z-10">
           Oriki Yoruba and History
         </h1>

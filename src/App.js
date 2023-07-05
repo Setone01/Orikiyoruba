@@ -9,7 +9,8 @@ import About from "./pages/About/About";
 import Town from "./pages/Town/town";
 import Blog from "./pages/Blog/Blog";
 import Layout from "./component/Layout";
-import OrikiPlayer from "./pages/Oriki/Oriki";
+import Oriki from "./pages/Oriki/Oriki";
+import OrikiPlayer from "./pages/Oriki/OrikiPlayer";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/oriki" element={<OrikiPlayer />} />
+          <Route path="/oriki" element={<Oriki/>} />
+          <Route path="/orikiPlayer/:id" element={<OrikiPlayer/>} />
           <Route path="/town" element={<Town />} />
           <Route path="/blog" element={<Blog />} />
         </Route>

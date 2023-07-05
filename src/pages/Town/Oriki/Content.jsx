@@ -30,7 +30,7 @@ const Content = () => {
                 key={index}
                 className=" flex item-center min-w-72 max-h-max gap-7 bg-secondary p-2 rounded-lg shadow-md"
               >
-                <div className=" w-20 h-20 rounded-lg ">
+                <div className=" w-16 h-16 rounded-lg ">
                   {data.thumbnail ? (
                     <img
                       className="w-full h-full rounded-lg"
