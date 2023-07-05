@@ -21,7 +21,7 @@ const OrikiPlayer = () => {
   return (
     <div className=" bg-primary2 w-screen max-h-max pb-7">
       <div className=" bg-transparent md:w-[85%] sm:w-full m-auto mt-[5rem] pt-5 flex justify-center flex-col">
-        <div className=" bg-transparent font-bold mb-5">
+        <div className=" bg-transparent font-bold mb-5 px-4 md:px-0">
           <button className=" bg-slate-300 rounded flex justify-center items-center py-2 px-6 text-md text-black">
             <span className=" bg-transparent mr-2">
               <HiArrowLongLeft className=" bg-transparent" />
