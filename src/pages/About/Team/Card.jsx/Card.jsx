@@ -1,5 +1,5 @@
 import React from "react";
-import { Team_mate } from "../../../../DummyDb/DataB";
+// import { Team_mate } from "../../../../DummyDb/DataB";
 // import ProfImg from "../../../../Assets/images/smiling-g1b1c4bb77_1920.jpg";
 import { FaFacebook, FaTwitter } from "react-icons/fa";
 
