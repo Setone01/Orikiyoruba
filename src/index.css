@@ -28,22 +28,22 @@ body {
 }
 
 /* Swiper modified styles */
-
-.swiper-container {
-  overflow: visible;
+.slick-prev:before, 
+.slick-next:before {
+  color: #146e5f;
+  font-size: 30px;
 }
 
-.swiper-pagination-fraction{
-  position: absolute;
-    bottom: 0;
+.slick-next:before {
+  margin-left: -35px;
+}
+.slick-prev:before{
+  margin-right: -35px;
 }
 
-.swiper-pagination{
-  position: absolute;
-  bottom: -25px;
-  background-color: transparent;
+.slick-prev {
+  z-index: 9999;
 }
-
 @layer base {
   * {
     @apply font-Euclid

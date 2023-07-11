@@ -15,7 +15,7 @@ const ContactUs = () => {
                   first name
                 </label>
                 <input
-                  className='appearance-none block w-full bg-secondary text-primary3 font-light border border-primary1 rounded py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-primary1" id="grid-first-name'
+                  className='appearance-none block w-full bg-secondary text-primary3 font-light border border-primary1 rounded py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-primary1 placeholder:text-xs" id="grid-first-name'
                   type="text"
                   placeholder="Tunde"
                 />
