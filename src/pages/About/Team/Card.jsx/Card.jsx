@@ -5,7 +5,7 @@ import { FaFacebook, FaTwitter } from "react-icons/fa";
 
 const Card = ({image, name, role, fblink,twitter}) => {
   return (
-       <div className="bg-secondary max-w-md flex justify-center items-center flex-col shadow overflow-hidden rounded-lg px-10 py-7 mb-6 z-30">
+       <div className="bg-secondary max-w-md flex justify-center items-center flex-col shadow overflow-hidden rounded-lg px-10 py-7 mb-6 mx-6 z-30">
        <div className="rounded-full bg-transparent">
          <img className=" w-32 h-32 rounded-full" src={image} alt="" />
        </div>
