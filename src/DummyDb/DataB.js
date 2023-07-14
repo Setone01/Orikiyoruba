@@ -167,7 +167,7 @@ export const Team_mate = [
     role: "Team Lead",
     img: User1,
     fblink: "",
-    twitter: ""
+    twitter: "",
   },
   {
     id: 2,
@@ -175,7 +175,7 @@ export const Team_mate = [
     role: "Asst Team Lead",
     img: User2,
     fblink: "",
-    twitter: ""
+    twitter: "",
   },
   {
     id: 3,
@@ -183,7 +183,7 @@ export const Team_mate = [
     role: "Designer",
     img: User3,
     fblink: "",
-    twitter: ""
+    twitter: "",
   },
   {
     id: 4,
@@ -191,7 +191,7 @@ export const Team_mate = [
     role: "Product Manager",
     img: User4,
     fblink: "",
-    twitter: ""
+    twitter: "",
   },
   {
     id: 5,
@@ -199,7 +199,7 @@ export const Team_mate = [
     role: "Journalist",
     img: User5,
     fblink: "",
-    twitter: ""
+    twitter: "",
   },
   {
     id: 6,
@@ -207,6 +207,84 @@ export const Team_mate = [
     role: "Marketer",
     img: User6,
     fblink: "",
-    twitter: ""
+    twitter: "",
+  },
+];
+
+export const Town = [
+  {
+    id: "town-1",
+    title: "Àkúrẹ́",
+    desc: "including all ancient Yoruba towns under Ondo and Èkìtì",
+  },
+  {
+    id: "town-2",
+    title: "Àpá",
+    desc: "all ancient Yoruba towns native to Badargry Kingdom",
+  },
+  {
+    id: "town-3",
+    title: "Èkó",
+    desc: "including Ẹ̀pẹ́, Ìkòròdú, and all other indigenous families native to Lagos Island and Etí-Ọ̀sà",
+  },
+  {
+    id: "town-4",
+    title: "Ẹdẹ",
+    desc: "including Ìlá-Ọ̀ràngún, Èjìgbò, and other towns under Ẹdẹ",
+  },
+  {
+    id: "town-5",
+    title: "Ẹ̀gbá",
+    desc: "including Ìlá-Ọ̀ràngún, Èjìgbò, and other towns under Ẹdẹ",
+  },
+  {
+    id: "town-6",
+    title: "Ẹ̀gbádò",
+    desc: "including families from Ìlaròó and other towns under Yewa kingdom",
+  },
+  {
+    id: "town-7",
+    title: "Ìbàdàn",
+    desc: "including of all the major clans and towns under the entire Councils of Ibadan cities",
+  },
+  {
+    id: "town-8",
+    title: "Ifẹ̀",
+    desc: "including Modákẹ́kẹ́ and other surrounding towns under ancient Ifẹ̀ Kingdom",
+  },
+  {
+    id: "town-9",
+    title: "Ìjẹ́bú",
+    desc: "including Rẹ́mọ, Ṣàgámù, and all other Ìjẹ́bú settlements",
+  },
+  {
+    id: "town-9",
+    title: "Ìjẹ̀ṣà",
+    desc: "including all towns under Iléṣà, including Ẹ̀sà-Òkè",
+  },
+  {
+    id: "town-10",
+    title: "Ìlọrin",
+    desc: "including all native Yoruba towns in Kwara and Kogi State",
+  },
+  {
+    id: "town-11",
+    title: "Ògbómọ̀ṣọ̀ọ́",
+    desc: "all towns thought to fall under the geography of Òkè-Ògùn in Ọ̀yọ́ State may be found here",
+  },
+  {
+    id: "town-12",
+    title: "Òṣogbo",
+    desc: "including of Ìkìrun, Ìkirè, Èjìgbò, and other neighboring towns to Òṣogbo",
+  },
+  {
+    id: "town-13",
+    title: "Ọ̀fà ",
+    desc: "Yoruba towns under near Ilorin or thoguth to be in Kwara State may be found under here",
+  },
+  {
+    id: "town-14",
+    title: "Ọ̀yọ́",
+    desc: "including Ìsẹ́yìn, Ṣakí,̣ and other surrounding ancient towns native to Ọ̀yọ́ kingdom",
   },
 ];

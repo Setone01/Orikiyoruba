@@ -5,7 +5,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 /* Default styles */
 
 * {
@@ -14,7 +13,7 @@
   padding: 0;
 }
 
-html{
+html {
   font-size: 95.5%;
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -28,7 +27,7 @@ body {
 }
 
 /* Swiper modified styles */
-.slick-prev:before, 
+.slick-prev:before,
 .slick-next:before {
   color: #146e5f;
   font-size: 30px;
@@ -36,13 +35,18 @@ body {
 
 .slick-next:before {
   margin-left: -35px;
+  margin-top: -30px;
 }
-.slick-prev:before{
+.slick-prev:before {
   margin-right: -35px;
 }
 
 .slick-prev {
   z-index: 9999;
+  margin-top: -16px;
+}
+.slick-next{
+  margin-top: -16px;
 }
 @layer base {
   * {
