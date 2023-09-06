@@ -15,9 +15,9 @@ const ContactUs = () => {
                   first name
                 </label>
                 <input
-                  className='appearance-none block w-full bg-secondary text-primary3 font-light border border-primary1 rounded py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-primary1 placeholder:text-xs" id="grid-first-name'
+                  className='appearance-none block w-full bg-secondary text-primary3 font-light border border-primary1 rounded py-2 px-4 mb-3 leading-tight focus:outline-none focus:bg-white placeholder:text-xs" id="grid-first-name'
                   type="text"
-                  placeholder="Tunde"
+                  placeholder="firstname"
                 />
               </div>
               <div className="w-full md:w-1/2 px-3 bg-transparent">
@@ -31,7 +31,7 @@ const ContactUs = () => {
                   className="appearance-none block w-full bg-secondary text-primary3 font-light border border-primary1 rounded py-2 px-4 leading-tight focus:outline-none focus:bg-white"
                   id="grid-first-name"
                   type="text"
-                  placeholder="Bakare"
+                  placeholder="lastname"
                 />
               </div>
             </div>
